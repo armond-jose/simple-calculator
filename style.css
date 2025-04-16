@@ -1,0 +1,21 @@
+.body{
+    margin: 0;
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+}
+.calc{
+    width: 520px;
+    height:100vh;
+    background: grey;
+}
+.screen{
+    margin-left: 34px;
+    width: 80%;
+    margin-top: 25px;
+    height: 40px;
+    pointer-events: none;
+}
